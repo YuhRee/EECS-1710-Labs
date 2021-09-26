@@ -1,0 +1,16 @@
+color bgColor = color(345, 32, 156);
+float circleSize = 100;
+
+void setup() {
+  size(1920,1080, P2D);
+  background(bgColor);
+}
+
+void draw() {
+  if (mousePressed) {
+    rectMode(CENTER);
+    rect(mouseX, mouseY, circleSize, circleSize);
+    stroke(0, 0, 0);
+    fill(345, 32, 156);
+  }
+} 
